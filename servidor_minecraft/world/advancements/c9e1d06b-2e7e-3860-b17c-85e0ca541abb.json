@@ -1343,15 +1343,15 @@
     },
     "done": true
   },
-  "thebrokenscript:can_you_see_me": {
-    "criteria": {
-      "can_you_see_me_0": "2025-06-01 16:19:54 +0000"
-    },
-    "done": true
-  },
   "minecraft:husbandry/plant_seed": {
     "criteria": {
       "wheat": "2025-06-01 16:17:49 +0000"
+    },
+    "done": true
+  },
+  "thebrokenscript:can_you_see_me": {
+    "criteria": {
+      "can_you_see_me_0": "2025-06-01 16:19:54 +0000"
     },
     "done": true
   },
