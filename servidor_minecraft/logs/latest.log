@@ -1,28 +1,28 @@
-[01Jun2025 14:29:29.382] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[01Jun2025 14:29:29.386] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[01Jun2025 14:29:29.511] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[01Jun2025 14:29:29.552] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/boludo/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[01Jun2025 14:29:29.818] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/boludo/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[01Jun2025 14:29:29.823] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/boludo/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[01Jun2025 14:29:29.826] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/boludo/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[01Jun2025 14:29:29.830] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/boludo/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[01Jun2025 14:29:30.051] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[01Jun2025 14:29:31.742] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[01Jun2025 14:29:31.750] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[01Jun2025 14:29:31.899] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
-[01Jun2025 14:29:31.902] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/Minecraft (java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER)
-[01Jun2025 14:29:31.902] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.Minecraft was not found mixins.thebrokenscript.json:SingleplayerDynamicPOSMixin
-[01Jun2025 14:29:31.958] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/PauseScreen for invalid dist DEDICATED_SERVER
-[01Jun2025 14:29:31.971] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/PauseScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/PauseScreen for invalid dist DEDICATED_SERVER)
-[01Jun2025 14:29:31.972] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.PauseScreen was not found mixins.thebrokenscript.json:NoPauseMixin
-[01Jun2025 14:29:37.342] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[01Jun2025 14:29:37.347] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[01Jun2025 14:29:38.121] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[01Jun2025 14:29:38.734] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[01Jun2025 14:29:39.395] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01Jun2025 14:29:40.173] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/boludo/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23105!/assets/.mcassetsroot' uses unexpected schema
-[01Jun2025 14:29:40.173] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/boludo/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23105!/data/.mcassetsroot' uses unexpected schema
-[01Jun2025 14:29:41.855] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thebrokenscript:blocks/false_comand_block
+[01Jun2025 14:41:07.304] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[01Jun2025 14:41:07.307] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[01Jun2025 14:41:07.454] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[01Jun2025 14:41:07.505] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/boludo/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[01Jun2025 14:41:07.741] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/boludo/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[01Jun2025 14:41:07.743] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/boludo/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[01Jun2025 14:41:07.744] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/boludo/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[01Jun2025 14:41:07.745] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/boludo/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[01Jun2025 14:41:07.881] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[01Jun2025 14:41:09.345] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[01Jun2025 14:41:09.356] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[01Jun2025 14:41:09.507] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[01Jun2025 14:41:09.508] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/Minecraft (java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER)
+[01Jun2025 14:41:09.509] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.Minecraft was not found mixins.thebrokenscript.json:SingleplayerDynamicPOSMixin
+[01Jun2025 14:41:09.577] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/PauseScreen for invalid dist DEDICATED_SERVER
+[01Jun2025 14:41:09.580] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/PauseScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/PauseScreen for invalid dist DEDICATED_SERVER)
+[01Jun2025 14:41:09.581] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.PauseScreen was not found mixins.thebrokenscript.json:NoPauseMixin
+[01Jun2025 14:41:14.764] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[01Jun2025 14:41:14.771] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[01Jun2025 14:41:15.543] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[01Jun2025 14:41:16.135] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[01Jun2025 14:41:16.682] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01Jun2025 14:41:17.581] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/boludo/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23105!/assets/.mcassetsroot' uses unexpected schema
+[01Jun2025 14:41:17.582] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/boludo/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23105!/data/.mcassetsroot' uses unexpected schema
+[01Jun2025 14:41:19.199] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thebrokenscript:blocks/false_comand_block
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'thebrokenscript:false_comand_block'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -74,7 +74,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[01Jun2025 14:29:41.896] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thebrokenscript:blocks/redrock
+[01Jun2025 14:41:19.244] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thebrokenscript:blocks/redrock
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'thebrokenscript:redrock'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -126,7 +126,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[01Jun2025 14:29:41.904] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thebrokenscript:blocks/noise
+[01Jun2025 14:41:19.275] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thebrokenscript:blocks/noise
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'thebrokenscript:noise'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -178,7 +178,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[01Jun2025 14:29:41.925] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thebrokenscript:blocks/flesh
+[01Jun2025 14:41:19.305] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thebrokenscript:blocks/flesh
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'thebrokenscript:flesh'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -230,7 +230,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[01Jun2025 14:29:41.949] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thebrokenscript:blocks/unstable_noise
+[01Jun2025 14:41:19.337] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thebrokenscript:blocks/unstable_noise
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'thebrokenscript:unstable_noise'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -282,33 +282,33 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[01Jun2025 14:29:42.050] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[01Jun2025 14:29:42.193] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1275 advancements
-[01Jun2025 14:29:42.668] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[01Jun2025 14:29:42.669] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[01Jun2025 14:29:42.670] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[01Jun2025 14:29:42.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[01Jun2025 14:29:42.856] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[01Jun2025 14:29:42.897] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[01Jun2025 14:29:42.996] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01Jun2025 14:29:42.996] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[01Jun2025 14:29:42.997] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01Jun2025 14:29:42.997] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[01Jun2025 14:29:43.067] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[01Jun2025 14:29:46.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[01Jun2025 14:29:49.519] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jun2025 14:29:49.556] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jun2025 14:29:49.580] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jun2025 14:29:49.633] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jun2025 14:29:49.681] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jun2025 14:29:49.748] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jun2025 14:29:49.754] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jun2025 14:29:49.754] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jun2025 14:29:50.019] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jun2025 14:29:50.518] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 43%
-[01Jun2025 14:29:50.962] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4944 ms
-[01Jun2025 14:29:50.963] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (7.950s)! For help, type "help"
-[01Jun2025 14:29:50.980] [Server thread/WARN] [net.minecraftforge.server.LanguageHook/]: Skipped language file: minecraft:lang/en_us.json
+[01Jun2025 14:41:19.476] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[01Jun2025 14:41:19.602] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1275 advancements
+[01Jun2025 14:41:20.080] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[01Jun2025 14:41:20.081] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[01Jun2025 14:41:20.081] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[01Jun2025 14:41:20.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[01Jun2025 14:41:20.248] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[01Jun2025 14:41:20.272] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[01Jun2025 14:41:20.352] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01Jun2025 14:41:20.352] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[01Jun2025 14:41:20.352] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01Jun2025 14:41:20.353] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[01Jun2025 14:41:20.404] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[01Jun2025 14:41:23.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[01Jun2025 14:41:26.406] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2025 14:41:26.434] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2025 14:41:26.456] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2025 14:41:26.481] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2025 14:41:26.504] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2025 14:41:26.523] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2025 14:41:26.537] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2025 14:41:26.743] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2025 14:41:27.242] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2025 14:41:27.742] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 61%
+[01Jun2025 14:41:27.990] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4749 ms
+[01Jun2025 14:41:27.991] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (7.624s)! For help, type "help"
+[01Jun2025 14:41:28.009] [Server thread/WARN] [net.minecraftforge.server.LanguageHook/]: Skipped language file: minecraft:lang/en_us.json
 com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated object at line 6219 column 4 path $.upgrade.minecraft.netherite_upgrade
 	at com.google.gson.Gson.fromJson(Gson.java:1229) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
@@ -338,38 +338,40 @@ Caused by: com.google.gson.stream.MalformedJsonException: Unterminated object at
 	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 18 more
-[01Jun2025 14:29:50.986] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[01Jun2025 14:30:34.487] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: BuenaTula_xD[/127.164.200.247:46063] logged in with entity id 62 at (-703.9058995182041, 84.0, -369.0299368997221)
-[01Jun2025 14:30:34.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BuenaTula_xD joined the game
-[01Jun2025 14:30:35.369] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:herobrine but it was marked as removed already
-[01Jun2025 14:30:35.985] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Artyomich2033[/127.61.235.251:48593] logged in with entity id 152 at (-708.5500209714195, 85.00133597911214, -365.87086335258954)
-[01Jun2025 14:30:35.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Artyomich2033 joined the game
-[01Jun2025 14:30:59.702] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:chunk_remover but it was marked as removed already
-[01Jun2025 14:31:05.941] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
-[01Jun2025 14:31:05.942] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:herobrine but it was marked as removed already
-[01Jun2025 14:31:07.738] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:siluet_stare but it was marked as removed already
-[01Jun2025 14:32:55.787] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_stalk but it was marked as removed already
-[01Jun2025 14:33:15.439] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:random_structure but it was marked as removed already
-[01Jun2025 14:34:10.787] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
-[01Jun2025 14:34:11.186] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:siluet_stare but it was marked as removed already
-[01Jun2025 14:34:47.338] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:corruption but it was marked as removed already
-[01Jun2025 14:35:33.139] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:siluet_stare but it was marked as removed already
-[01Jun2025 14:36:49.588] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:null_tp_beacon but it was marked as removed already
-[01Jun2025 14:36:57.537] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:siluet_stare but it was marked as removed already
-[01Jun2025 14:37:37.337] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:null_tp_beacon but it was marked as removed already
-[01Jun2025 14:38:04.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BuenaTula_xD has made the advancement [Acquire Hardware]
-[01Jun2025 14:38:35.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BuenaTula_xD has made the advancement [Isn't It Iron Pick]
-[01Jun2025 14:39:03.187] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_tp_beacon but it was marked as removed already
-[01Jun2025 14:39:18.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Artyomich2033 has made the advancement [Monster Hunter]
-[01Jun2025 14:39:38.687] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_walk but it was marked as removed already
-[01Jun2025 14:40:27.037] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:siluet_stare but it was marked as removed already
-[01Jun2025 14:40:34.393] [Server thread/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
-[01Jun2025 14:40:34.394] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[01Jun2025 14:41:28.016] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[01Jun2025 14:41:38.720] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: BuenaTula_xD[/127.164.200.247:52167] logged in with entity id 46 at (-688.3373665024844, 145.0, -494.8681394868198)
+[01Jun2025 14:41:38.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BuenaTula_xD joined the game
+[01Jun2025 14:41:47.683] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Artyomich2033[/127.61.235.251:33919] logged in with entity id 463 at (-690.6290866981909, 146.0, -488.14861970512703)
+[01Jun2025 14:41:47.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Artyomich2033 joined the game
+[01Jun2025 14:43:25.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BuenaTula_xD has made the advancement [Suit Up]
+[01Jun2025 14:43:36.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Artyomich2033 has made the advancement [Isn't It Iron Pick]
+[01Jun2025 14:43:39.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Artyomich2033 has made the advancement [Suit Up]
+[01Jun2025 14:43:42.819] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:siluet but it was marked as removed already
+[01Jun2025 14:43:47.269] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 14:45:10.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BuenaTula_xD has made the advancement [Not Today, Thank You]
+[01Jun2025 14:45:22.917] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:siluet but it was marked as removed already
+[01Jun2025 14:46:00.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Artyomich2033 has made the advancement [Not Today, Thank You]
+[01Jun2025 14:46:37.969] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 14:46:45.519] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:siluet_stare but it was marked as removed already
+[01Jun2025 14:48:01.718] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_stalk but it was marked as removed already
+[01Jun2025 14:48:01.816] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 14:48:11.018] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:corruption but it was marked as removed already
+[01Jun2025 14:48:20.117] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 14:48:24.018] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 14:48:48.619] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_tp_beacon but it was marked as removed already
+[01Jun2025 14:48:48.621] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:sub_anomaly_1 but it was marked as removed already
+[01Jun2025 14:49:25.776] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:strike but it was marked as removed already
+[01Jun2025 14:50:42.417] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_stare but it was marked as removed already
+[01Jun2025 14:50:52.017] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_walk but it was marked as removed already
+[01Jun2025 14:51:16.766] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:sub_anomaly_1 but it was marked as removed already
+[01Jun2025 14:51:29.867] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:corruption but it was marked as removed already
+[01Jun2025 14:51:38.622] [Server thread/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[01Jun2025 14:51:38.623] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
 	Index: 1
 	Listeners:
 		0: NORMAL
-		1: ASM: net.mcreator.interpritation.ThebrokenscriptMod@5721eb16 tick(Lnet/minecraftforge/event/TickEvent$ServerTickEvent;)V
-		2: ASM: net.minecraftforge.common.ForgeInternalHandler@3ab1882 onServerTick(Lnet/minecraftforge/event/TickEvent$ServerTickEvent;)V
+		1: ASM: net.mcreator.interpritation.ThebrokenscriptMod@75abbcb5 tick(Lnet/minecraftforge/event/TickEvent$ServerTickEvent;)V
+		2: ASM: net.minecraftforge.common.ForgeInternalHandler@13076a41 onServerTick(Lnet/minecraftforge/event/TickEvent$ServerTickEvent;)V
 java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
 	at MC-BOOTSTRAP/fmlloader@1.20.1-47.3.7/net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57)
 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88)
@@ -395,7 +397,7 @@ java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecra
 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
 	at java.base/java.lang.Thread.run(Thread.java:840)
 
-[01Jun2025 14:40:34.395] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Encountered an unexpected exception
+[01Jun2025 14:51:38.624] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Encountered an unexpected exception
 java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
 	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:1.0]
 	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
@@ -420,23 +422,23 @@ java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecra
 	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
 	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[01Jun2025 14:40:34.420] [Server thread/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 29444c51-4360-47ca-a153-db8ff3661ac1
-[01Jun2025 14:40:34.420] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: This crash report has been saved to: /workspaces/boludo/servidor_minecraft/./crash-reports/crash-2025-06-01_14.40.34-server.txt
-[01Jun2025 14:40:34.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[01Jun2025 14:40:34.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[01Jun2025 14:40:34.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[01Jun2025 14:40:35.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01Jun2025 14:40:36.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/thebrokenscript:null_torture
-[01Jun2025 14:40:36.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/thebrokenscript:clan_void
-[01Jun2025 14:40:36.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/thebrokenscript:day_b
-[01Jun2025 14:40:36.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[01Jun2025 14:40:36.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/thebrokenscript:day_a
-[01Jun2025 14:40:36.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[01Jun2025 14:40:36.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01Jun2025 14:40:36.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (null_torture): All chunks are saved
-[01Jun2025 14:40:36.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (clan_void): All chunks are saved
-[01Jun2025 14:40:36.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (day_b): All chunks are saved
-[01Jun2025 14:40:36.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01Jun2025 14:40:36.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (day_a): All chunks are saved
-[01Jun2025 14:40:36.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01Jun2025 14:40:36.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01Jun2025 14:51:38.651] [Server thread/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 98243224-1b81-4df7-9b20-b5a1f6a14d55
+[01Jun2025 14:51:38.652] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: This crash report has been saved to: /workspaces/boludo/servidor_minecraft/./crash-reports/crash-2025-06-01_14.51.38-server.txt
+[01Jun2025 14:51:38.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[01Jun2025 14:51:38.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[01Jun2025 14:51:38.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[01Jun2025 14:51:39.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01Jun2025 14:51:41.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/thebrokenscript:day_a
+[01Jun2025 14:51:41.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/thebrokenscript:clan_void
+[01Jun2025 14:51:41.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/thebrokenscript:null_torture
+[01Jun2025 14:51:41.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/thebrokenscript:day_b
+[01Jun2025 14:51:41.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[01Jun2025 14:51:41.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jun2025 14:51:41.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01Jun2025 14:51:41.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (day_a): All chunks are saved
+[01Jun2025 14:51:41.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (clan_void): All chunks are saved
+[01Jun2025 14:51:41.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (null_torture): All chunks are saved
+[01Jun2025 14:51:41.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (day_b): All chunks are saved
+[01Jun2025 14:51:41.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01Jun2025 14:51:41.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01Jun2025 14:51:41.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
