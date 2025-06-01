@@ -1,28 +1,28 @@
-[01Jun2025 15:48:48.769] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[01Jun2025 15:48:48.773] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[01Jun2025 15:48:48.911] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[01Jun2025 15:48:48.958] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/boludo/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[01Jun2025 15:48:49.148] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/boludo/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[01Jun2025 15:48:49.150] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/boludo/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[01Jun2025 15:48:49.151] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/boludo/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[01Jun2025 15:48:49.152] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/boludo/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[01Jun2025 15:48:49.291] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[01Jun2025 15:48:50.691] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[01Jun2025 15:48:50.699] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[01Jun2025 15:48:50.824] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
-[01Jun2025 15:48:50.827] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/Minecraft (java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER)
-[01Jun2025 15:48:50.828] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.Minecraft was not found mixins.thebrokenscript.json:SingleplayerDynamicPOSMixin
-[01Jun2025 15:48:50.894] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/PauseScreen for invalid dist DEDICATED_SERVER
-[01Jun2025 15:48:50.895] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/PauseScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/PauseScreen for invalid dist DEDICATED_SERVER)
-[01Jun2025 15:48:50.896] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.PauseScreen was not found mixins.thebrokenscript.json:NoPauseMixin
-[01Jun2025 15:48:56.551] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[01Jun2025 15:48:56.554] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[01Jun2025 15:48:57.403] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[01Jun2025 15:48:57.883] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[01Jun2025 15:48:58.528] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01Jun2025 15:48:59.256] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/boludo/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23105!/assets/.mcassetsroot' uses unexpected schema
-[01Jun2025 15:48:59.257] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/boludo/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23105!/data/.mcassetsroot' uses unexpected schema
-[01Jun2025 15:49:01.131] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thebrokenscript:blocks/false_comand_block
+[01Jun2025 16:00:13.790] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[01Jun2025 16:00:13.794] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[01Jun2025 16:00:13.942] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[01Jun2025 16:00:13.995] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/boludo/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[01Jun2025 16:00:14.238] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/boludo/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[01Jun2025 16:00:14.240] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/boludo/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[01Jun2025 16:00:14.242] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/boludo/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[01Jun2025 16:00:14.245] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/boludo/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[01Jun2025 16:00:14.414] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[01Jun2025 16:00:15.923] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[01Jun2025 16:00:15.931] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[01Jun2025 16:00:16.080] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[01Jun2025 16:00:16.082] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/Minecraft (java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER)
+[01Jun2025 16:00:16.082] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.Minecraft was not found mixins.thebrokenscript.json:SingleplayerDynamicPOSMixin
+[01Jun2025 16:00:16.145] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/PauseScreen for invalid dist DEDICATED_SERVER
+[01Jun2025 16:00:16.148] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/PauseScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/PauseScreen for invalid dist DEDICATED_SERVER)
+[01Jun2025 16:00:16.148] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.PauseScreen was not found mixins.thebrokenscript.json:NoPauseMixin
+[01Jun2025 16:00:21.128] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[01Jun2025 16:00:21.133] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[01Jun2025 16:00:22.037] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[01Jun2025 16:00:22.647] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[01Jun2025 16:00:23.427] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01Jun2025 16:00:24.091] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/boludo/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23105!/assets/.mcassetsroot' uses unexpected schema
+[01Jun2025 16:00:24.092] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/boludo/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23105!/data/.mcassetsroot' uses unexpected schema
+[01Jun2025 16:00:25.724] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thebrokenscript:blocks/false_comand_block
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'thebrokenscript:false_comand_block'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -74,7 +74,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[01Jun2025 15:49:01.173] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thebrokenscript:blocks/redrock
+[01Jun2025 16:00:25.773] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thebrokenscript:blocks/redrock
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'thebrokenscript:redrock'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -126,7 +126,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[01Jun2025 15:49:01.184] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thebrokenscript:blocks/noise
+[01Jun2025 16:00:25.786] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thebrokenscript:blocks/noise
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'thebrokenscript:noise'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -178,7 +178,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[01Jun2025 15:49:01.207] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thebrokenscript:blocks/flesh
+[01Jun2025 16:00:25.813] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thebrokenscript:blocks/flesh
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'thebrokenscript:flesh'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -230,7 +230,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[01Jun2025 15:49:01.236] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thebrokenscript:blocks/unstable_noise
+[01Jun2025 16:00:25.863] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thebrokenscript:blocks/unstable_noise
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'thebrokenscript:unstable_noise'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -282,35 +282,33 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[01Jun2025 15:49:01.337] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[01Jun2025 15:49:01.494] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1275 advancements
-[01Jun2025 15:49:01.956] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[01Jun2025 15:49:01.957] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[01Jun2025 15:49:01.958] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[01Jun2025 15:49:01.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[01Jun2025 15:49:02.149] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[01Jun2025 15:49:02.170] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[01Jun2025 15:49:02.253] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01Jun2025 15:49:02.253] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[01Jun2025 15:49:02.254] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01Jun2025 15:49:02.254] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[01Jun2025 15:49:02.305] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[01Jun2025 15:49:05.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[01Jun2025 15:49:08.557] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jun2025 15:49:08.619] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jun2025 15:49:08.648] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jun2025 15:49:08.671] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jun2025 15:49:08.755] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jun2025 15:49:08.808] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jun2025 15:49:08.847] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jun2025 15:49:08.963] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jun2025 15:49:09.066] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[01Jun2025 15:49:09.422] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jun2025 15:49:09.922] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
-[01Jun2025 15:49:10.174] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[01Jun2025 15:49:10.375] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4954 ms
-[01Jun2025 15:49:10.376] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.108s)! For help, type "help"
-[01Jun2025 15:49:10.397] [Server thread/WARN] [net.minecraftforge.server.LanguageHook/]: Skipped language file: minecraft:lang/en_us.json
+[01Jun2025 16:00:26.016] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[01Jun2025 16:00:26.183] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1275 advancements
+[01Jun2025 16:00:26.717] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[01Jun2025 16:00:26.718] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[01Jun2025 16:00:26.719] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[01Jun2025 16:00:26.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[01Jun2025 16:00:26.833] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[01Jun2025 16:00:26.884] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[01Jun2025 16:00:26.972] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01Jun2025 16:00:26.972] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[01Jun2025 16:00:26.973] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01Jun2025 16:00:26.974] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[01Jun2025 16:00:27.026] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[01Jun2025 16:00:30.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[01Jun2025 16:00:33.377] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2025 16:00:33.395] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2025 16:00:33.418] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2025 16:00:33.474] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2025 16:00:33.532] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2025 16:00:33.588] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2025 16:00:33.626] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2025 16:00:33.667] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2025 16:00:34.053] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2025 16:00:34.553] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
+[01Jun2025 16:00:34.995] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4943 ms
+[01Jun2025 16:00:34.995] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.008s)! For help, type "help"
+[01Jun2025 16:00:35.012] [Server thread/WARN] [net.minecraftforge.server.LanguageHook/]: Skipped language file: minecraft:lang/en_us.json
 com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated object at line 6219 column 4 path $.upgrade.minecraft.netherite_upgrade
 	at com.google.gson.Gson.fromJson(Gson.java:1229) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
@@ -340,39 +338,223 @@ Caused by: com.google.gson.stream.MalformedJsonException: Unterminated object at
 	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 18 more
-[01Jun2025 15:49:10.404] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[01Jun2025 15:49:14.522] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: BuenaTula_xD[/127.164.200.247:42893] logged in with entity id 14 at (-939.8139920044609, 59.41999998688698, 61.698266144824316)
-[01Jun2025 15:49:14.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BuenaTula_xD joined the game
-[01Jun2025 15:49:19.583] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Artyomich2033[/127.61.235.251:49655] logged in with entity id 397 at (-1045.8766684070306, 92.0, -236.5681420050037)
-[01Jun2025 15:49:19.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Artyomich2033 joined the game
-[01Jun2025 15:49:55.508] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_walk but it was marked as removed already
-[01Jun2025 15:50:05.655] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
-[01Jun2025 15:50:17.606] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:faraway but it was marked as removed already
-[01Jun2025 15:50:30.955] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:sub_anomaly_1 but it was marked as removed already
-[01Jun2025 15:51:11.956] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_tp_beacon but it was marked as removed already
-[01Jun2025 15:51:41.305] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_walk but it was marked as removed already
-[01Jun2025 15:52:16.154] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_walk but it was marked as removed already
-[01Jun2025 15:53:07.607] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:xxram_2die but it was marked as removed already
-[01Jun2025 15:53:08.958] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
-[01Jun2025 15:53:14.405] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_stare but it was marked as removed already
-[01Jun2025 15:53:26.306] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:null_tp_beacon but it was marked as removed already
-[01Jun2025 15:53:26.806] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_stare but it was marked as removed already
-[01Jun2025 15:53:26.856] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:random_structure but it was marked as removed already
-[01Jun2025 15:54:24.355] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:xxram_2die but it was marked as removed already
-[01Jun2025 15:55:40.655] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:null_tp_beacon but it was marked as removed already
-[01Jun2025 15:55:53.206] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:entity_spawner but it was marked as removed already
-[01Jun2025 15:55:58.755] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:siluet_stare but it was marked as removed already
-[01Jun2025 15:56:45.455] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:null_tp_beacon but it was marked as removed already
-[01Jun2025 15:56:59.354] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:faraway but it was marked as removed already
-[01Jun2025 15:57:02.405] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:random_structure but it was marked as removed already
-[01Jun2025 15:59:00.405] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_walk but it was marked as removed already
-[01Jun2025 15:59:14.411] [Server thread/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
-[01Jun2025 15:59:14.412] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[01Jun2025 16:00:35.019] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[01Jun2025 16:01:22.095] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Artyomich2033[/127.61.235.251:44731] logged in with entity id 13 at (-1037.041655264977, 113.0, -236.1197767847372)
+[01Jun2025 16:01:22.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Artyomich2033 joined the game
+[01Jun2025 16:01:52.374] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 16:01:53.371] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:siluet_stare but it was marked as removed already
+[01Jun2025 16:01:54.520] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 16:02:00.521] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 16:02:02.572] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:sub_anomaly_1 but it was marked as removed already
+[01Jun2025 16:02:04.174] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:null_tp_beacon but it was marked as removed already
+[01Jun2025 16:02:09.171] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:null_tp_beacon but it was marked as removed already
+[01Jun2025 16:02:19.372] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 16:02:25.221] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 16:02:26.323] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:faraway but it was marked as removed already
+[01Jun2025 16:02:30.672] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:chunk_remover but it was marked as removed already
+[01Jun2025 16:02:31.122] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:xxram_2die but it was marked as removed already
+[01Jun2025 16:02:33.872] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:null_tp_beacon but it was marked as removed already
+[01Jun2025 16:02:34.021] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:chunk_remover but it was marked as removed already
+[01Jun2025 16:02:39.920] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:siluet but it was marked as removed already
+[01Jun2025 16:02:41.671] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 16:02:43.570] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:faraway but it was marked as removed already
+[01Jun2025 16:02:52.171] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 16:02:54.771] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:faraway but it was marked as removed already
+[01Jun2025 16:02:59.420] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:null_tp_beacon but it was marked as removed already
+[01Jun2025 16:02:59.521] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 16:03:00.321] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_walk but it was marked as removed already
+[01Jun2025 16:03:00.672] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:null_tp_beacon but it was marked as removed already
+[01Jun2025 16:03:05.223] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:random_structure but it was marked as removed already
+[01Jun2025 16:03:31.420] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:faraway but it was marked as removed already
+[01Jun2025 16:03:32.221] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:sub_anomaly_1 but it was marked as removed already
+[01Jun2025 16:03:36.772] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:siluet but it was marked as removed already
+[01Jun2025 16:03:38.121] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:siluet_stare but it was marked as removed already
+[01Jun2025 16:03:40.520] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_walk but it was marked as removed already
+[01Jun2025 16:03:40.521] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:random_structure but it was marked as removed already
+[01Jun2025 16:03:42.670] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:null_tp_beacon but it was marked as removed already
+[01Jun2025 16:03:45.270] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:random_structure but it was marked as removed already
+[01Jun2025 16:03:46.871] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:sub_anomaly_1 but it was marked as removed already
+[01Jun2025 16:03:50.721] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_walk but it was marked as removed already
+[01Jun2025 16:03:52.021] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:corruption but it was marked as removed already
+[01Jun2025 16:03:55.371] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:corruption but it was marked as removed already
+[01Jun2025 16:03:56.121] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 16:03:56.570] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:null_tp_beacon but it was marked as removed already
+[01Jun2025 16:03:57.322] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_stare but it was marked as removed already
+[01Jun2025 16:03:58.122] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:siluet_stare but it was marked as removed already
+[01Jun2025 16:03:58.320] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_walk but it was marked as removed already
+[01Jun2025 16:03:59.521] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_walk but it was marked as removed already
+[01Jun2025 16:04:01.772] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:xxram_2die but it was marked as removed already
+[01Jun2025 16:04:12.621] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_stare but it was marked as removed already
+[01Jun2025 16:04:15.321] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_walk but it was marked as removed already
+[01Jun2025 16:04:16.571] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_walk but it was marked as removed already
+[01Jun2025 16:04:19.571] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 16:04:20.121] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 16:04:20.321] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:random_structure but it was marked as removed already
+[01Jun2025 16:04:21.271] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:siluet but it was marked as removed already
+[01Jun2025 16:04:21.972] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:entity_spawner but it was marked as removed already
+[01Jun2025 16:04:24.770] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:entity_spawner but it was marked as removed already
+[01Jun2025 16:04:26.371] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:null_tp_beacon but it was marked as removed already
+[01Jun2025 16:04:28.571] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 16:04:29.221] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_walk but it was marked as removed already
+[01Jun2025 16:04:36.170] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:sub_anomaly_1 but it was marked as removed already
+[01Jun2025 16:04:38.770] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:chunk_remover but it was marked as removed already
+[01Jun2025 16:04:38.821] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_stalk but it was marked as removed already
+[01Jun2025 16:04:42.121] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_walk but it was marked as removed already
+[01Jun2025 16:04:42.621] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:null_tp_beacon but it was marked as removed already
+[01Jun2025 16:04:43.689] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:siluet_stare but it was marked as removed already
+[01Jun2025 16:04:45.071] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:faraway but it was marked as removed already
+[01Jun2025 16:04:45.771] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_walk but it was marked as removed already
+[01Jun2025 16:04:46.072] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_walk but it was marked as removed already
+[01Jun2025 16:04:46.571] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:random_structure but it was marked as removed already
+[01Jun2025 16:04:46.920] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:xxram_2die but it was marked as removed already
+[01Jun2025 16:04:51.321] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 16:04:51.770] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:random_structure but it was marked as removed already
+[01Jun2025 16:04:53.871] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 16:05:08.871] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:sub_anomaly_1 but it was marked as removed already
+[01Jun2025 16:05:10.121] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:corruption but it was marked as removed already
+[01Jun2025 16:05:12.770] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_walk but it was marked as removed already
+[01Jun2025 16:05:15.921] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:null_tp_beacon but it was marked as removed already
+[01Jun2025 16:05:18.021] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_stare but it was marked as removed already
+[01Jun2025 16:05:19.771] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_walk but it was marked as removed already
+[01Jun2025 16:05:20.321] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_walk but it was marked as removed already
+[01Jun2025 16:05:23.271] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:xxram_2die but it was marked as removed already
+[01Jun2025 16:05:24.021] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:faraway but it was marked as removed already
+[01Jun2025 16:05:24.371] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:corruption but it was marked as removed already
+[01Jun2025 16:05:34.121] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:random_structure but it was marked as removed already
+[01Jun2025 16:05:34.121] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_walk but it was marked as removed already
+[01Jun2025 16:05:35.671] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 16:05:35.720] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:null_tp_beacon but it was marked as removed already
+[01Jun2025 16:05:38.621] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:siluet_stare but it was marked as removed already
+[01Jun2025 16:05:39.021] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:random_structure but it was marked as removed already
+[01Jun2025 16:05:40.470] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:corruption but it was marked as removed already
+[01Jun2025 16:05:49.522] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_tp_beacon but it was marked as removed already
+[01Jun2025 16:05:52.670] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:siluet_stare but it was marked as removed already
+[01Jun2025 16:05:55.721] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_walk but it was marked as removed already
+[01Jun2025 16:05:56.870] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_walk but it was marked as removed already
+[01Jun2025 16:05:57.870] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 16:06:00.921] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_walk but it was marked as removed already
+[01Jun2025 16:06:02.471] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:sub_anomaly_1 but it was marked as removed already
+[01Jun2025 16:06:03.921] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:entity_spawner but it was marked as removed already
+[01Jun2025 16:06:08.171] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:null_tp_beacon but it was marked as removed already
+[01Jun2025 16:06:09.070] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:siluet_stare but it was marked as removed already
+[01Jun2025 16:06:13.572] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:null_tp_beacon but it was marked as removed already
+[01Jun2025 16:06:21.872] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:faraway but it was marked as removed already
+[01Jun2025 16:06:27.672] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:sub_anomaly_1 but it was marked as removed already
+[01Jun2025 16:06:36.021] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:corruption but it was marked as removed already
+[01Jun2025 16:06:37.320] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:sub_anomaly_1 but it was marked as removed already
+[01Jun2025 16:06:46.072] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:null_tp_beacon but it was marked as removed already
+[01Jun2025 16:06:46.171] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 16:06:46.671] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:sub_anomaly_1 but it was marked as removed already
+[01Jun2025 16:06:49.871] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:siluet but it was marked as removed already
+[01Jun2025 16:06:54.822] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_stalk but it was marked as removed already
+[01Jun2025 16:06:56.022] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 16:07:02.672] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:siluet but it was marked as removed already
+[01Jun2025 16:07:07.320] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 16:07:11.122] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:faraway but it was marked as removed already
+[01Jun2025 16:07:19.721] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_walk but it was marked as removed already
+[01Jun2025 16:07:21.870] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:xxram_2die but it was marked as removed already
+[01Jun2025 16:07:22.321] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 16:07:22.322] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_stalk but it was marked as removed already
+[01Jun2025 16:07:26.621] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:sub_anomaly_1 but it was marked as removed already
+[01Jun2025 16:07:30.271] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 16:07:30.670] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:siluet but it was marked as removed already
+[01Jun2025 16:07:35.020] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 16:07:47.871] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_walk but it was marked as removed already
+[01Jun2025 16:08:07.320] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:faraway but it was marked as removed already
+[01Jun2025 16:08:08.070] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:random_structure but it was marked as removed already
+[01Jun2025 16:08:08.521] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_walk but it was marked as removed already
+[01Jun2025 16:08:13.621] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:random_structure but it was marked as removed already
+[01Jun2025 16:08:22.871] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:random_structure but it was marked as removed already
+[01Jun2025 16:08:23.521] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 16:08:43.771] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_walk but it was marked as removed already
+[01Jun2025 16:08:50.671] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:xxram_2die but it was marked as removed already
+[01Jun2025 16:08:52.120] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:siluet but it was marked as removed already
+[01Jun2025 16:08:54.071] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:sub_anomaly_1 but it was marked as removed already
+[01Jun2025 16:09:02.271] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:null_tp_beacon but it was marked as removed already
+[01Jun2025 16:09:03.271] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:null_tp_beacon but it was marked as removed already
+[01Jun2025 16:09:10.720] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_stalk but it was marked as removed already
+[01Jun2025 16:09:13.021] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:sub_anomaly_1 but it was marked as removed already
+[01Jun2025 16:09:13.522] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:null_tp_beacon but it was marked as removed already
+[01Jun2025 16:09:17.871] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:null_tp_beacon but it was marked as removed already
+[01Jun2025 16:09:28.121] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_stare but it was marked as removed already
+[01Jun2025 16:09:28.970] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:faraway but it was marked as removed already
+[01Jun2025 16:09:31.371] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:null_tp_beacon but it was marked as removed already
+[01Jun2025 16:09:34.272] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:null_tp_beacon but it was marked as removed already
+[01Jun2025 16:09:36.170] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:null_tp_beacon but it was marked as removed already
+[01Jun2025 16:09:36.620] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:xxram_2die but it was marked as removed already
+[01Jun2025 16:09:36.671] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:chunk_remover but it was marked as removed already
+[01Jun2025 16:09:37.821] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:chunk_remover but it was marked as removed already
+[01Jun2025 16:09:38.221] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_walk but it was marked as removed already
+[01Jun2025 16:09:39.121] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:corruption but it was marked as removed already
+[01Jun2025 16:09:40.121] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:chunk_remover but it was marked as removed already
+[01Jun2025 16:09:41.020] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:random_structure but it was marked as removed already
+[01Jun2025 16:09:41.171] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:siluet but it was marked as removed already
+[01Jun2025 16:09:44.871] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_stare but it was marked as removed already
+[01Jun2025 16:09:46.951] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:null_tp_beacon but it was marked as removed already
+[01Jun2025 16:09:47.670] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:faraway but it was marked as removed already
+[01Jun2025 16:09:50.371] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 16:09:50.870] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:siluet but it was marked as removed already
+[01Jun2025 16:09:53.321] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:siluet_stare but it was marked as removed already
+[01Jun2025 16:09:53.321] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:entity_spawner but it was marked as removed already
+[01Jun2025 16:09:53.505] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:null_tp_beacon but it was marked as removed already
+[01Jun2025 16:09:55.120] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:siluet but it was marked as removed already
+[01Jun2025 16:09:55.872] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:null_tp_beacon but it was marked as removed already
+[01Jun2025 16:10:00.771] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:random_structure but it was marked as removed already
+[01Jun2025 16:10:01.121] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 16:10:02.325] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:chunk_remover but it was marked as removed already
+[01Jun2025 16:10:06.721] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:siluet but it was marked as removed already
+[01Jun2025 16:10:07.071] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:siluet_stare but it was marked as removed already
+[01Jun2025 16:10:07.672] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_walk but it was marked as removed already
+[01Jun2025 16:10:09.173] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:sub_anomaly_1 but it was marked as removed already
+[01Jun2025 16:10:10.621] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:sub_anomaly_1 but it was marked as removed already
+[01Jun2025 16:10:15.024] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:null_tp_beacon but it was marked as removed already
+[01Jun2025 16:10:16.622] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:random_structure but it was marked as removed already
+[01Jun2025 16:10:20.321] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:entity_spawner but it was marked as removed already
+[01Jun2025 16:10:24.771] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:siluet_stare but it was marked as removed already
+[01Jun2025 16:10:24.970] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:null_tp_beacon but it was marked as removed already
+[01Jun2025 16:10:25.072] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_walk but it was marked as removed already
+[01Jun2025 16:10:25.173] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:herobrine but it was marked as removed already
+[01Jun2025 16:10:26.121] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:faraway but it was marked as removed already
+[01Jun2025 16:10:26.920] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:chunk_remover but it was marked as removed already
+[01Jun2025 16:10:28.422] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:corruption but it was marked as removed already
+[01Jun2025 16:10:28.920] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 16:10:32.221] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_stare but it was marked as removed already
+[01Jun2025 16:10:33.521] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:siluet but it was marked as removed already
+[01Jun2025 16:10:35.321] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:random_structure but it was marked as removed already
+[01Jun2025 16:10:36.072] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 16:10:36.322] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:siluet_stare but it was marked as removed already
+[01Jun2025 16:10:36.322] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 16:10:38.621] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:chunk_remover but it was marked as removed already
+[01Jun2025 16:10:39.522] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:xxram_2die but it was marked as removed already
+[01Jun2025 16:10:43.321] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:herobrine but it was marked as removed already
+[01Jun2025 16:10:50.172] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 16:10:50.421] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:chunk_remover but it was marked as removed already
+[01Jun2025 16:10:51.221] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:xxram_2die but it was marked as removed already
+[01Jun2025 16:10:56.321] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:null_tp_beacon but it was marked as removed already
+[01Jun2025 16:10:57.120] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_tp_beacon but it was marked as removed already
+[01Jun2025 16:10:58.521] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:faraway but it was marked as removed already
+[01Jun2025 16:11:00.470] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:null_tp_beacon but it was marked as removed already
+[01Jun2025 16:11:00.771] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:null_tp_beacon but it was marked as removed already
+[01Jun2025 16:11:02.671] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:herobrine but it was marked as removed already
+[01Jun2025 16:11:03.022] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_stare but it was marked as removed already
+[01Jun2025 16:11:06.422] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:siluet_stare but it was marked as removed already
+[01Jun2025 16:11:09.071] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:chunk_remover but it was marked as removed already
+[01Jun2025 16:11:13.170] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:chunk_remover but it was marked as removed already
+[01Jun2025 16:11:13.771] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 16:11:15.020] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:entity_spawner but it was marked as removed already
+[01Jun2025 16:11:15.270] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:xxram_2die but it was marked as removed already
+[01Jun2025 16:11:17.220] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:chunk_remover but it was marked as removed already
+[01Jun2025 16:11:17.321] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:random_structure but it was marked as removed already
+[01Jun2025 16:11:18.370] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:entity_spawner but it was marked as removed already
+[01Jun2025 16:11:20.520] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_stare but it was marked as removed already
+[01Jun2025 16:11:21.470] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thebrokenscript:circuit_mineshaft_stare but it was marked as removed already
+[01Jun2025 16:11:21.976] [Server thread/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[01Jun2025 16:11:21.977] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
 	Index: 1
 	Listeners:
 		0: NORMAL
-		1: ASM: net.mcreator.interpritation.ThebrokenscriptMod@26afbcc tick(Lnet/minecraftforge/event/TickEvent$ServerTickEvent;)V
-		2: ASM: net.minecraftforge.common.ForgeInternalHandler@595d75d4 onServerTick(Lnet/minecraftforge/event/TickEvent$ServerTickEvent;)V
+		1: ASM: net.mcreator.interpritation.ThebrokenscriptMod@209f5f56 tick(Lnet/minecraftforge/event/TickEvent$ServerTickEvent;)V
+		2: ASM: net.minecraftforge.common.ForgeInternalHandler@684a9590 onServerTick(Lnet/minecraftforge/event/TickEvent$ServerTickEvent;)V
 java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
 	at MC-BOOTSTRAP/fmlloader@1.20.1-47.3.7/net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57)
 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88)
@@ -398,7 +580,7 @@ java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecra
 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
 	at java.base/java.lang.Thread.run(Thread.java:840)
 
-[01Jun2025 15:59:14.413] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Encountered an unexpected exception
+[01Jun2025 16:11:21.977] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Encountered an unexpected exception
 java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
 	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:1.0]
 	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
@@ -423,23 +605,23 @@ java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecra
 	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
 	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[01Jun2025 15:59:14.440] [Server thread/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 1ec8ae58-a7b5-4e8a-8b97-17d99cba672d
-[01Jun2025 15:59:14.441] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: This crash report has been saved to: /workspaces/boludo/servidor_minecraft/./crash-reports/crash-2025-06-01_15.59.14-server.txt
-[01Jun2025 15:59:14.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[01Jun2025 15:59:14.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[01Jun2025 15:59:14.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[01Jun2025 15:59:15.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01Jun2025 15:59:16.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/thebrokenscript:day_a
-[01Jun2025 15:59:16.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[01Jun2025 15:59:16.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[01Jun2025 15:59:16.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/thebrokenscript:clan_void
-[01Jun2025 15:59:16.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/thebrokenscript:day_b
-[01Jun2025 15:59:16.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/thebrokenscript:null_torture
-[01Jun2025 15:59:16.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01Jun2025 15:59:16.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (day_a): All chunks are saved
-[01Jun2025 15:59:16.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01Jun2025 15:59:16.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01Jun2025 15:59:16.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (clan_void): All chunks are saved
-[01Jun2025 15:59:16.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (day_b): All chunks are saved
-[01Jun2025 15:59:16.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (null_torture): All chunks are saved
-[01Jun2025 15:59:16.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01Jun2025 16:11:22.002] [Server thread/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID b6b4a92c-5d02-4072-9159-e93904ec9566
+[01Jun2025 16:11:22.002] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: This crash report has been saved to: /workspaces/boludo/servidor_minecraft/./crash-reports/crash-2025-06-01_16.11.21-server.txt
+[01Jun2025 16:11:22.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[01Jun2025 16:11:22.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[01Jun2025 16:11:22.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[01Jun2025 16:11:22.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01Jun2025 16:11:23.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jun2025 16:11:23.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/thebrokenscript:day_a
+[01Jun2025 16:11:23.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/thebrokenscript:null_torture
+[01Jun2025 16:11:23.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/thebrokenscript:day_b
+[01Jun2025 16:11:23.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/thebrokenscript:clan_void
+[01Jun2025 16:11:23.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[01Jun2025 16:11:23.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01Jun2025 16:11:23.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01Jun2025 16:11:23.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (day_a): All chunks are saved
+[01Jun2025 16:11:23.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (null_torture): All chunks are saved
+[01Jun2025 16:11:23.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (day_b): All chunks are saved
+[01Jun2025 16:11:23.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (clan_void): All chunks are saved
+[01Jun2025 16:11:23.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01Jun2025 16:11:23.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
