@@ -1066,6 +1066,12 @@
     },
     "done": true
   },
+  "thebrokenscript:can_you_see_me": {
+    "criteria": {
+      "can_you_see_me_0": "2025-06-01 16:27:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lime_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-06-01 16:37:18 +0000"
@@ -1099,12 +1105,6 @@
   "minecraft:recipes/building_blocks/red_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-06-01 16:37:18 +0000"
-    },
-    "done": true
-  },
-  "thebrokenscript:can_you_see_me": {
-    "criteria": {
-      "can_you_see_me_0": "2025-06-01 16:27:29 +0000"
     },
     "done": true
   },
